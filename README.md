@@ -33,6 +33,10 @@ Immutability means that data cannot be changed once created. In FP, immutability
 
 A pure function is a function that, given the same input, always produces the same output and has no side effects (e.g., no mutation of external state, no I/O operations).
 
+## 7. Functors
+
+Functors are data structure that holds a value and has a map method that let us apply a function to the values and returns a new instance of same structure with transformed values without changing the container itself.
+
 ## Why These Matter in Functional Programming
 
 These concepts are foundational to functional programming because they promote:
